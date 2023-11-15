@@ -1,0 +1,274 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Generation
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Generation
+ identifier : 0x2dcabbc10ec3cdf7
+ internal_properties : CAAAAAgAAACHDAtQwgbhB/ge4z6hRV5Zs/Pzpeb/o4rKQI2I0wbuSD80TWmRYy4Ec60Airdlp22mVBoIRGZUtQZlfoKKP0m84zl0/eoNvomkxr3QOXIdMCAC2vuVhcK87mul3Y8ZducqrNpu22o8KJhqvXULU80ZEmCBnxSYBLIJ7eGuvl14cbgBMv+KWo1nhmbiTQdC5sFWbU+sdYCvOr7/IzWtYGdUcwCQwiwDvL9Nzi3bmnG4zI2S5qT1vZ8uHC0q+SapnGAiAJORcj4cvFeHKW+wkl3C5XaqF/c862ZOWfBp5Latzc4ZrTABfNUzdyjs51Yenjhi1EXFTGPBsHVQBm9BsJCUQQz+Ufwq9jr1uc8LnvMy+vyi9RVQ5k5l0dZmDzaCOLeO+coAvOhc9Q17RG43K3T9OP9NkFUlCf9tBogQ6zu/UNavGhcruC0S6AGMXmEvlAeZg+KkLw83rjIGrH+2w8iHDSTgssgTUiD8a2IrNGERs8WeIj0rFT+4VL7hoXglK5r9gLdb9YaS6AUodS9hKOx5mE4EhmSfINuPppEcwgXQDU8g470LmHa96fhl72ybPmfg1A0bX2860dbWWIqxbe2MQOcLeBE7BWsk1WOrjFMpLYRbPXtqgoiNOr/z9a4r54DP7dN1A0UH744RyzC/5HDVc6nTG3xQyXJPmVh83jqg5G4aPHwnDl9HqT7RdkvLXwGyaVu8RdlDOEmYTbWAkGjogSDEqEFPtG2707fBYX3PHPPKBJlV91VgVIt9dYT+RL9LdYPR/vIfURLlu2RaSJoh1NC/U6iojo8=
+ properties :
+  width : 387
+  height : 188
+  widthClient : 385
+  heightClient : 156
+ controls :
+  -
+    name : IMG_SansNom59
+    identifier : 0x2dcabbe710096209
+    internal_properties : CAAAAAgAAAA7UCpoqT0JSctmOco8/OaNFxlzJjJIH/x1a9tll1/tWaso/78LLCf9kGqF7jOUyZ5SAg/y89UMXhFAKnu3h2sp91pZSyUz74lOn4Iud0jRZGORtcS/IK6YfbqXJdo6ikiJ0Ovfc2AGiA4kEChEu61nnIccLLQrqebGi16APOdCFtxNZAPpkecwrmxu8jNmdMX+U0d30uK1kHl3l9tZ8qj0I4Y2pdwWjaigYBuhH0LAIkdFnhayfFohPC0a+e6UnXwZOvPIDK198vI5sYluuDXeyFgLpk1Iy7R4u4hSImyXONPADOuMyPxSraq8yvJTEzmRn1YsHm5h+mz0W/A2eWv6pMneNuvS6upkNHSXRGH/qNdxvUjFvuZU14/swHUPcd1f9f+SYzXSUbof1Od+a+yJrBXBiNJROYpyIrjawlAqxTAtyA1La7Y13+q+QGLtPzaYIJpEjkoHDHM3PgoE/tRlzl4kEmqweieNbU8hdm2WfdjVXsyF6d4/T/e7qNorjuXg9dOBxYFcjunnKFFSTS1Gr73Gmc7Ch+UNGpyT+saYYFxjnXwZGeGKoNKulRBqPF2Bkaewey3X5ZN+08iXQZ0N5eYNPCHuX3/kt6j1iIbI8lpm9vobPdqlIuc75jUpUhSxxqVuINSAVg2gLCBqqIgYOFdYL9U/9HS77O1rm8toiUOjtICoNrqNpsrlfjpdLjVmtprWSQWqemgmGL3yiREWx8y/NFwWO2GyWofOyCufeOa/BvapQBDi73atT1PpkidcPgW7WjJaTnSh1ymFUA8IIWqm9UX0a9u/Bd8ktYKDbRddKaWoN+c0DoOq9IDjlU2H2TGgsXGwgLXX7x72tu42sa57B7n75DQWoWPu8ELS5UIR98Z1e9c5TNHMSzXlekYfF4feYlamIiu9qt4RrgD1Z5ZBZgMZea9k7+X9QaPeR9B8ECOfUZRcJVF0fUi6Z+D1ySmhsmidXQ9tJLQjjDZ++ZE2wQ==
+    properties :
+     x : 143
+     y : 6
+     width : 100
+     height : 100
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_EnCours
+    identifier : 0x2dcabbf010498570
+    internal_properties : CAAAAAgAAACyb+FNkZH5N81vl2e7TFW+PyRwtT16JvO05gyVsS+1QLbrS4StLj6WdSZFwwmYm00R+QrVdX++WuQjLENyHeiAQIq7nWYLQMSxwsmeLP47YdlgsAA6n2Q3X6Vyzz4dMcVC+6V1bywM7pxhNPYsRUcVj3fekPoAirmGAKd6BXdQmeXyMXLaV3PSnc8WKh6U7P+Jl4L+6qxY+IHNcr8iJWbORLGB85RMSNTDEcoOeF83MZXIIMI8VBT0R8uXGtKi/wuV3TuxavP+qFiLXQPUg9nP05OEjrjSDSJ6bOzfPnWzTYzezdtJx2DSsUe7GMrCWQJSGIK+g7OC/29HFe2E8Fs7tYi8WBbLNtzL7Dq2Rw/R+0Li7G1iBhjMMZagrgmytCHH5UoxmQdW6JLwMohzHB33gFy3FYRUyHjj/aaNIPg2X6u/msgCeKifVF9jWEeyiMchcsw2fESSm+MCW/NHfYuRo/TIQSEgtTnAJlSwIqZpVFuM/grzUXrVeJty1GurcpYGonIbK0WVcdZ7+Q9/y0Sm1TPktQErW5o=
+    properties :
+     x : 6
+     y : 112
+     width : 373
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : JAUGE_Génération
+    identifier : 0x2e7107bf03bb4a86
+    internal_properties : CAAAAAgAAACWqjEfFpC8jb1yvMTqVUrDqEqX6pDpBBo+rGKG1mu3jramhN2pufRYMD4ziACSmJW/8iGW4utuRArXtoQ/+8kTOhMz8Vd6Md5FGJ7ZYH0oj3O1ba2vRYRV5t1b85rrFdQyZLb1jV58ESZ9k/bJqDQ6AxbAbS+qn5eIz4wYkZkbYi/3cvAj0hQYS1kZIjCsY++JX3hELTU1d2CKEbQGsLr4cMg17FFR6mS8iuSszaToj+9DdPu2TXJD1FdTxQx4eBuU3NacnQynshbpfN4K5VdHkJf4ZRwub7+aSRHn5aThMjO1NCBCrrwmyvgU3yCJJCj0JbBbsXZrxMUXhORTdEzgYpbhudDwJD41pKNq5tuLYQ6akv01EqG+O/492/8Q8+2bTcTvHZceJa0tMX3nUeKjCJ/whLsVBfpMR5SZ6hD8e331FGBomgW/JZmmP98Yi1UaWqWdazkEo/WZpuWLgqqRRznMvYkS0m+sUP6JnUMYYQB6xIUZbvIGx9ODCCzGJjCTrCEN3/M0XqvMXbyBtwQLVBU6Ng8D+g5ais7OCN1G7MEqQbBgkJKqjMNQWhAzUh49ipkn6Idv06+krzSx6Dqfv4vK2qWaVMRKiW/Mb/NXUE8c65beCf6ZqFd2Xqpx/Jsw1ikFbaYc7JBXwrGTS3cdcCCiOoUSqneOYczGkUe+3qT8EySyRHIKqBrwwReWCtH3rQhJZ7uKtFnl0bG/aYRtkm/qf1fHTkik0NMqKYKjToaIFdStWo8yLoU3WFbm4OWSYoJK4N0fFj/Gz6U0K+aZFfTyaezcJatMtrkhl0TvYxk1rAtdRgc56D65nJkCVd8QqWjPa7AWxiBYghpvceRctVYQVjAVpzMxx0jNFeobKvtKXLoznMHKStIp99VXJjXJeoOAYUiBMWU6LjC9ExUgkaO3J4wvQbL8nUWMMB2qZ0Am07rdUprzmd1WV3PSEUQjVFqd258/rddYeS1H0T2ibnb5ZwxuHln0IuevDHPwgd1l8CMTZH11BV9kv0ddWqe8aRC5heIEzLY=
+    properties :
+     x : 6
+     y : 138
+     width : 373
+     height : 14
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      // Vide les fichiers de données à générer
+      HCréation(Commande)
+      HCréation(LigneCde)
+      HCréation(Facture)
+      HCréation(NumCommande)
+      HCréation(NumFacture)
+      HCréation(AdresseArchive)
+      
+      // Initialise le générateur de nombres aléatoires
+      InitHasard()
+      
+      // Génère des données sur 2 ans
+      JAUGE_Génération..bornemax = 365*2
+      
+      // Effectue le traitement dans un thread
+      MaTacheGeneration est une TâcheParallèle = TâcheParallèleExécute(Generation, (), tpoCopieComplèteContexteHFSQL)
+      TâcheParallèleExécuteAprès(MaTacheGeneration, FinGeneration, (), tpoThreadPrincipal)
+      
+      
+      	PROCÉDURE INTERNE Generation()
+      	
+      	// Lit le premier produit
+      	HLitPremier(DéclinaisonProduit)
+      	
+      	// Génère des données sur 2 ans
+      	dDate est une Date
+      	dDate..Année -= 2
+      	dDate = PremierJourDuMois(dDate)
+      	TANTQUE dDate <= DateSys()
+      		
+      		// Libellé en cours
+      		ExécuteThreadPrincipal(LibelleEnCours, "Génération des données pour le "+DateVersChaîne(dDate, "JJ/MM/AAAA") )
+      			PROCÉDURE INTERNE LibelleEnCours(sLibelle)
+      			LIB_EnCours = sLibelle
+      			FIN
+      		
+      		// Parcourt les clients
+      		POUR TOUT Client 
+      			
+      			// Enlève aléatoirement les clients
+      			SI Hasard(0,1) = 0 ALORS CONTINUER
+      			
+      			// Crée la commande
+      			CommandeCrée(dDate)
+      			// Associe le client
+      			Commande.UUIDClient = Client.UUIDClient
+      			// Modifie aléatoirement l'état de la commande
+      			SELON Hasard(1, 4)
+      				CAS 1 : Commande.EtatCommande = CDE_ATTENTEREGLEMENT
+      				CAS 2 : Commande.EtatCommande = CDE_PREPARATION
+      				CAS 3 : Commande.EtatCommande = CDE_LIVRAISON
+      				CAS 4 : Commande.EtatCommande = CDE_LIVREE
+      			FIN
+      			
+      			// Lit l'adresse du client
+      			HLitRecherchePremier(Adresse, IDClientAdresseDéfaut, [Client.UUIDClient, Vrai])
+      			
+      			// Adresse de livraison
+      			AdresseArchive.NomComplet = Adresse.NomComplet
+      			AdresseArchive.Societe = Adresse.Societe
+      			AdresseArchive.Voie = Adresse.Voie
+      			AdresseArchive.Complement = Adresse.Complement
+      			AdresseArchive.LieuDitBP = Adresse.LieuDitBP
+      			AdresseArchive.CodePostal = Adresse.CodePostal
+      			AdresseArchive.Ville = Adresse.Ville
+      			AdresseArchive.EtatProvince = Adresse.EtatProvince
+      			AdresseArchive.Pays = Adresse.Pays
+      			SI HAjoute(AdresseArchive) = Vrai ALORS
+      				Commande.IDAdresseLivraison = AdresseArchive.IDAdresse
+      				// L'adresse de facturation est identique
+      				Commande.IDAdresseFacturation = Commande.IDAdresseLivraison
+      			FIN
+      			
+      			// Ajoute des produits aléatoirement
+      			POUR nNbProduit = 1 _À_ Hasard(1, 5)
+      				
+      				// Lit le produit correspondant à la déclinaison
+      				HLitRecherchePremier(Produit, IDProduit, DéclinaisonProduit.IDProduit)
+      				
+      				// Création de la ligne de commande
+      				HRAZ(LigneCde)
+      				LigneCde.LibelleProduit = DéclinaisonProduit.LibelleDeclinaison
+      				LigneCde.Quantite = Hasard(1,5)
+      				LigneCde.PrixUnitaireHT = DéclinaisonProduit.PrixUnitaireHT
+      				LigneCde.TauxTaxe = TauxTaxe.Taux
+      				LigneCde.TotalLigne = LigneCde.PrixUnitaireHT * LigneCde.Quantite
+      				LigneCde.IDCommande = Commande.IDCommande
+      				LigneCde.IDDéclinaisonProduit = DéclinaisonProduit.IDDéclinaisonProduit
+      				SI HAjoute(LigneCde) = Faux ALORS
+      					RETOUR
+      				FIN	
+      				
+      				// Incrémente les totaux de la commande
+      				Commande.TotalHT += LigneCde.TotalLigne
+      				Commande.TotalTTC += LigneCde.TotalLigne * (1+LigneCde.TauxTaxe)
+      				
+      				// Produit suivant
+      				HLitSuivant(DéclinaisonProduit)
+      				// Si c'était le dernier produit, lit le premier produit
+      				SI HEnDehors(DéclinaisonProduit) ALORS
+      					HLitPremier(DéclinaisonProduit)
+      				FIN
+      				
+      			FIN
+      			
+      			
+      			// Modifie la commande
+      			HModifie(Commande)
+      			
+      			// Crée la facture qui correspond
+      			//Création de la facture
+      			sNumFacture est une chaîne = FactureCrée(dDate)
+      			SI sNumFacture = "" ALORS
+      				RETOUR
+      			FIN
+      			
+      			Facture.UUIDClient = Commande.UUIDClient
+      			Facture.NumCommande = Commande.NumCommande
+      			Facture.DateCommande = Commande.DateCommande		
+      			Facture.TotalHT = Commande.TotalHT
+      			Facture.TotalTVA = (Commande.TotalTTC - Commande.TotalHT)
+      			Facture.TotalTTC = Commande.TotalTTC
+      			Facture.TotalFraisPort = Commande.FraisPort
+      			//Adresse de facturation en clair, et normalisée
+      			Facture.AdresseFacturation = Adresse.NomComplet + [RC] +  Adresse.Complement +  [RC] + Adresse.Voie + [RC] + Adresse.LieuDitBP + [RC] + Adresse.CodePostal +  [ESP] +  Majuscule(Adresse.Ville) + [RC] + Majuscule(Adresse.Pays)
+      			
+      			// Ajout de la facture en base et ajout du numéro de facture à la Commande correspondante
+      			SI HModifie(Facture) ALORS
+      				
+      				Commande.NumFacture = sNumFacture 
+      				HModifie(Commande)
+      				
+      			FIN
+      			
+      		FIN
+      		
+      		// Incrémente aléatoirement le jour
+      		nIncrément est un entier = Hasard(3, 10)
+      		dDate..Jour += nIncrément
+      		ExécuteThreadPrincipal(IncrémenteJauge, nIncrément )
+      			Procedure interne IncrémenteJauge(nValeur)
+      			JAUGE_Génération+=nValeur
+      			END
+      		
+      	FIN
+      	
+      	
+      	FIN
+      
+      
+      	PROCÉDURE INTERNE FinGeneration()
+      	
+      	Info("Génération de données de test terminée !")
+      	Ferme(FEN_Generation)
+      	
+      	FIN
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fbcc0ba0306deac
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,410 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_eCommerce
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x16782fbc0089b21e
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAADeDkewATikP1vKObz4QeY1D5pedTpGvEv2x2S/pxoRiO1QwVUfP6mhoEBcmd6uqxCEwDN4BRjuH3nPDKRcedHmlh6Y7fhStQ==
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      CONSTANT
+      	// Types de règlements (utilisé dans la rubrique Commande.TypeReglement)
+      	REGL_CB = 1				// Règlement par carte bancaire
+      	REGL_PAYPAL = 2			// Règlement par PayPal
+      	REGL_VIREMENT = 3		// Règlement par virement bancaire
+      	REGL_CHEQUE = 4			// Règlement par chèque
+      	
+      	// Etats d'une commande (utilisé dans la rubrique Commande.EtatCommande)
+      	CDE_DEVIS = 5 					//Devis
+      	CDE_ATTENTEREGLEMENT = 1		// Commande en attente de règlement
+      	CDE_PREPARATION = 2				// Commande réglée, en cours de préparation
+      	CDE_LIVRAISON = 3				// Commande en cours de livraison
+      	CDE_LIVREE = 4					// Commande livrée
+      	
+      	// Modes de livraison d'une commande (utilisé dans la rubrique Commande.ModeLivraison)
+      	LIV_NORMAL = 1
+      	LIV_RECOMMANDÉ = 2
+      	LIV_TRANSPORTEUR = 3
+      	
+      fin
+     type : 720896
+  procedures :
+   -
+     name : CommandeEtatVersChaine
+     procedure_id : 1619096949981060204
+     type_code : 15
+     code : |1-
+      // Résumé : Permet de récupérer l'état de la commande en lettres
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeEtatVersChaine (<nEtatCommande>)
+      //
+      // Paramètres :
+      //	nEtatCommande :Code d'état de la commande
+      // Valeur de retour :
+      // 	chaîne ANSI : L'état de la commande en toutes lettres
+      
+      PROCEDURE CommandeEtatVersChaine(nEtatCommande)
+      
+      sEtat est une chaine
+      
+      selon nEtatCommande
+      
+      	CAS CDE_DEVIS //Devis
+      		sEtat = "Devis"
+      	CAS CDE_ATTENTEREGLEMENT // Commande en attente de règlement
+      		sEtat = "En attente de règlement"
+      	CAS CDE_PREPARATION // Commande réglée, en cours de préparation
+      		sEtat = "En cours de préparation"
+      	CAS CDE_LIVRAISON // Commande en cours de livraison
+      		sEtat = "En cours de livraison"
+      	CAS CDE_LIVREE // Commande livrée
+      		sEtat = "Livrée"
+      	AUTRE CAS
+      		sEtat = "< Inconnu >"		
+      FIN
+      
+      
+      renvoyer sEtat
+     type : 458752
+   -
+     name : CommandeRèglementVersChaîne
+     internal_properties : CAAAAAgAAADoOcLgd1ngocVZtc5/eTt6Kj+5Z6i6c8GvbsdNTphosXnXJ54jVImNG4BDq6DZnXIIa8u4lZX2zsznM7H1LEfJ76+AuMQoGAxCuIgVmBuvNppqz/k8EQIGPA2FsC8K0ntYKE4KF4OzfV9l7sL73A==
+     procedure_id : 1619097199089287018
+     type_code : 15
+     code : |1-
+      // Résumé : Permet de récupérer le règlement en lettres à partir de sa valeur
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeRèglementVersChaîne (<nTypeReglement>)
+      //
+      // Paramètres :
+      //	nTypeReglement : Code du type de règlement
+      // Valeur de retour :
+      // 	chaîne ANSI : Type de règlement en toutes lettres
+      
+      PROCEDURE CommandeRèglementVersChaîne(nTypeReglement)
+      
+      sTypeRèglement est une chaine
+      
+      SELON nTypeReglement 
+      	CAS REGL_CB
+      		sTypeRèglement = "CB"
+      	CAS REGL_CHEQUE
+      		sTypeRèglement = "Chèque"
+      	CAS REGL_VIREMENT
+      		sTypeRèglement = "Virement bancaire"
+      	CAS REGL_PAYPAL
+      		sTypeRèglement = "Paypal"
+      	AUTRE CAS
+      		dbgassertion(faux,"Impossible de trouver le type de règlement")
+      		sTypeRèglement = "< Inconnu >"				
+      FIN
+      
+      
+      renvoyer sTypeRèglement
+     type : 458752
+   -
+     name : CommandeModeLivraisonVersChaîne
+     procedure_id : 1627958867678696518
+     type_code : 15
+     code : |1-
+      // Résumé : Permet de récupérer le mode de livraison en lettres à partir de sa valeur
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeModeLivraisonVersChaîne (<nModeLivraison>)
+      //
+      // Paramètres :
+      //	nModeLivraison : Code du mode de livraison
+      // Valeur de retour :
+      // 	chaîne ANSI : Mode de livraison en toutes lettres
+      
+      PROCEDURE CommandeModeLivraisonVersChaîne(nModeLivraison)
+      
+      sModeLivraisonRèglement est une chaine
+      
+      SELON nModeLivraison 
+      	CAS LIV_NORMAL
+      		sModeLivraisonRèglement = "Normal"
+      	CAS LIV_RECOMMANDÉ
+      		sModeLivraisonRèglement = "Recommandé"
+      	CAS LIV_TRANSPORTEUR
+      		sModeLivraisonRèglement = "Transporteur"
+      	AUTRE CAS
+      		dbgassertion(faux,"Impossible de trouver le mode de livraison")
+      		sModeLivraisonRèglement = "< Inconnu >"				
+      FIN
+      
+      renvoyer sModeLivraisonRèglement
+     type : 458752
+   -
+     name : CommandeListeEtats
+     procedure_id : 1627971632324209805
+     type_code : 15
+     code : |1-
+      // Résumé : Permet de récupérer les états possibles pour une commande
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeListeEtats ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne ANSI : Liste des états possibles
+      
+      PROCEDURE CommandeListeEtats()
+      
+      sEtatsPossibles est une chaine
+      sEtatsPossibles = "En attente de règlement" + rc + "En cours de préparation" + rc + "En cours de livraison" + rc + "Livrée" + rc + "Devis"
+      	
+      renvoyer sEtatsPossibles
+     type : 458752
+   -
+     name : CommandeListeModesLivraison
+     procedure_id : 1627973350311134989
+     type_code : 15
+     code : |1-
+      // Résumé : Permet de récupérer les modes de livraison possibles pour une commande
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeListeModesLivraison ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne ANSI : Liste des modes de livraison possibles
+      
+      PROCEDURE CommandeListeModesLivraison()
+      
+      sModesLivraisonPossibles est une chaine
+      
+      sModesLivraisonPossibles = "Normal" + RC + "Recommandé" + RC + "Transporteur"
+      
+      RENVOYER sModesLivraisonPossibles
+     type : 458752
+   -
+     name : CommandeListeRèglements
+     procedure_id : 1627977945926621682
+     type_code : 15
+     code : |1+
+      // Résumé : Permet de récupérer les types de règlement possibles pour une commande
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeListeRèglements ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne ANSI : Liste des types de règlement possibles
+      
+      PROCEDURE CommandeListeRèglements()
+      
+      sRèglementsPossibles est une chaine
+      
+      sRèglementsPossibles = "CB" + RC + "Chèque" + RC + "Virement bancaire" + rc + "Paypal"
+      
+      RENVOYER sRèglementsPossibles
+      
+      
+     type : 458752
+   -
+     name : CommandeCrée
+     internal_properties : CAAAAAgAAABfWYgUzL2QVEeSE9h74LQ0q5cuIqHS5Iqw1qISVCijbgqRj0VOstilHSdyNJ5tKgQWXZKzIR1vMvtGuSTDxZmC434f37xMIJGK0s3BSrAElikg0eWZMBmw4aHM0qCWRsxhvLQHGFmMQQqdSdb9/35+zr+EQLFrTMo4ZINFg5Lo
+     procedure_id : 1627988726294620044
+     type_code : 15
+     code : |1-
+      // Résumé : Crée une nouvelle commande avec un numéro séquentiel par jour
+      // Syntaxe :
+      //[ <Résultat> = ] CommandeCrée ( [<dDate> est date])
+      //
+      // Paramètres :
+      //	dDate (date) : <indiquez ici le rôle de dDate>
+      // Valeur de retour :
+      // 	chaîne ANSI : Numéro de commande
+      
+      PROCEDURE CommandeCrée(LOCAL dDate est une date = datesys)
+      
+      // Les numéros générés sont de la forme :
+      // BC01-AAAAMMJJ-numseq
+      // BC01 : bons de commandes du site web
+      // AAAAMMJJ : date de création du bon de commande
+      // numseq : numéro séquentiel du BC
+      
+      // On tente de se positionner sur l'enregistrement du jour et de le bloquer
+      tantque HLitRecherchePremier(NumCommande,DateCommande,dDate,hBlocageEcriture)=Faux
+      	// Si on n'a pas trouvé d'enreg, on l'ajoute
+      	si htrouve()=Faux ALORS
+      		NumCommande.DateCommande = dDate
+      		NumCommande.Numero = 0
+      		hajoute(NumCommande)
+      	sinon
+      		// Enregistrement trouvé mais le blocage n'est pas possible
+      		si HErreurBlocage() ALORS
+      			continuer
+      		sinon
+      			// Autre erreur
+      			renvoyer ""
+      		FIN
+      	FIN
+      FIN
+      
+      // Lit le numéro de séquence, l'incrémente et met à jour le fichier
+      nNumSequence est un entier = NumCommande.Numero + 1
+      NumCommande.Numero++
+      si hmodifie(NumCommande) = Faux ALORS
+      	renvoyer ""
+      FIN
+      
+      // Génère le numéro de BC
+      sNumCommande est une chaine = "BC01-"+dDate+NumériqueVersChaîne(nNumSequence,"08d")
+      
+      // Crée l'enregistrement de commande
+      hraz(Commande)
+      commande.NumCommande = sNumCommande
+      Commande.NumFacture = null
+      Commande.IDAdresseFacturation = Null
+      Commande.IDAdresseLivraison = Null
+      Commande.DateCommande = dDate
+      commande.EtatCommande = CDE_ATTENTEREGLEMENT
+      si hajoute(Commande)=Faux ALORS
+      	// Échec de l'ajout
+      	sNumCommande = ""
+      FIN
+      
+      renvoyer sNumCommande
+      
+      fin:
+      // Dans tous les cas, on débloque le compteur de numéros
+      HDébloqueNumEnr(NumCommande,hNumEnrEnCours)
+     type : 458752
+   -
+     name : MonétaireVersChaine
+     procedure_id : 1629386639370664797
+     type_code : 15
+     code : |1+
+      // Résumé : Formatage d'un monétaire pour affichage
+      // Syntaxe :
+      //[ <Résultat> = ] MonétaireVersChaine (<moValeur> est monétaire)
+      //
+      // Paramètres :
+      //	moValeur (monétaire) : Monétaire à formater
+      // Valeur de retour :
+      // 	chaîne ANSI : Monétaire formaté pour affichage à l’utilisateur
+      
+      PROCEDURE MonétaireVersChaine( local moValeur est un monétaire)
+      
+      renvoyer NumériqueVersChaîne(moValeur,maskMonétaireSystème)
+      
+     type : 458752
+   -
+     name : FamilleDonneSousFamilles
+     procedure_id : 1630971473924541981
+     type_code : 15
+     code : |1+
+      // Résumé : Renvoie toutes les sous-familles d'une famille parente (de manière récursive = > sous-familles de sous-familles .. )
+      // Syntaxe :
+      //[ <Résultat> = ] FamilleDonneSousFamilles (<nIDFamilleParente> est entier)
+      //
+      // Paramètres :
+      //	nIDFamilleParente (entier) : ID de la famille parente
+      // Valeur de retour :
+      // 	tableau : Tableau des sous-familles, la famille parente passée en paramètre est contenue dans ce tableau
+      //
+      PROCEDURE FamilleDonneSousFamilles(LOCAL nIDFamilleParente est un entier)
+      
+      tabFamilles est un tableau d'entiers
+      TableauAjoute(tabFamilles, nIDFamilleParente)
+      
+      pour TOUTE FamilleProduit AVEC IDFamilleProduitParente = nIDFamilleParente
+      	
+      	nPos est un entier = HSauvePosition(FamilleProduit)
+      	tabSousFamilles est un tableau d'entiers = FamilleDonneSousFamilles(FamilleProduit.IDFamilleProduit)
+      	HRetourPosition(nPos)
+      	Tableauajoute(tabFamilles,tabSousFamilles)
+      	
+      FIN
+      
+      renvoyer tabFamilles
+      
+     type : 458752
+   -
+     name : FactureCrée
+     internal_properties : CAAAAAgAAABY6VJQV6lYARWJFW6fGZsKSs9JVwgKI9EvznddHsiYcUl35/7zVCntS/DjS6DZfYIou9uoVWVmZgS/G7mNdP/xp+fY4EyAcKQ60BCdcAOnnhKi50HkiZpe9EXNWOdyKsMQIIYSP1uLXV/VXlJLbA==
+     procedure_id : 1712857911959638478
+     type_code : 15
+     code : |1-
+      // Résumé : Crée une nouvelle facture avec un numéro séquentiel par jour
+      // Syntaxe :
+      //[ <Résultat> = ] FactureCrée ( [<dDate> est date])
+      //
+      // Paramètres :
+      //	dDate (date) : <indiquez ici le rôle de dDate>
+      // Valeur de retour :
+      // 	chaîne ANSI : Numéro de facture
+      
+      PROCEDURE FactureCrée(LOCAL dDate est une date = datesys)
+      
+      // Les numéros générés sont de la forme :
+      // FA01-AAAAMMJJ-numseq
+      // FA01 : facture
+      // AAAAMMJJ : date de création de la facture
+      // numseq : numéro séquentiel de la facture
+      
+      // On tente de se positionner sur l'enregistrement du jour et de le bloquer
+      tantque HLitRecherchePremier(Numfacture,Datefacture,dDate,hBlocageEcriture)=Faux
+      	// Si on n'a pas trouvé d'enreg, on l'ajoute
+      	si htrouve()=Faux ALORS
+      		NumFacture.DateFacture = dDate
+      		NumFacture.Numero = 0
+      		hajoute(NumFacture)
+      	sinon
+      		// Enregistrement trouvé mais le blocage n'est pas possible
+      		si HErreurBlocage() ALORS
+      			continuer
+      		sinon
+      			// Autre erreur
+      			renvoyer ""
+      		FIN
+      	FIN
+      FIN
+      
+      // Lit le numéro de séquence, l'incrémente et met à jour le fichier
+      nNumSequence est un entier = NumFacture.Numero + 1
+      NumFacture.Numero++
+      si hmodifie(NumFacture) = Faux ALORS
+      	renvoyer ""
+      FIN
+      
+      // Génère le numéro de Facture
+      sNumFacture est une chaine = "FA01-"+dDate+NumériqueVersChaîne(nNumSequence,"08d")
+      
+      // Crée l'enregistrement de commande
+      hraz(facture)
+      Facture.numFacture = sNumFacture
+      Facture.Numcommande = null
+      Facture.Datefacture = dDate
+      si hajoute(Facture)=Faux ALORS
+      	// Echec de l'ajout
+      	sNumFacture = ""
+      FIN
+      
+      renvoyer sNumFacture
+      
+      fin:
+      // Dans tous les cas, on débloque le compteur de numéros
+      HDébloqueNumEnr(numfacture,hNumEnrEnCours)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0b902b4dd45
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

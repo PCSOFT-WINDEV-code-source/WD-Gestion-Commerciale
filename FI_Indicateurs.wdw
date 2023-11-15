@@ -1,0 +1,309 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Indicateurs
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Indicateurs
+ identifier : 0x2698d3a54336525f
+ internal_properties : CAAAAAgAAAA5fV4n8nKC8Iah+QK14plyRu95/w3c9693A6ZUMU/1jsKuwMarHLwPDBm0iDJ64xdb/gP/ZmbZXf5Xgefh4TDmDqpGiu8fIanU6oBo5PKR7xNn+P9yqJPO1mAKc6Nu5+UXJbTl/WmxyIij+ZEz5e/egOOq4b5M5EU68lRZCcweqd3guqykii4nfCgIGoO3LWuQ48TzlqebLE9596Z64kM1fULf2IMliYdBbMJ6mcPZCvPz8gRJ9poJ1AFkUYOSErskUOl3V948yD9PQC6YmVdyUxh1quGd39eO9k8Xj9wq+eUnZn1/F6XGxzPZAH9HtyS6it9IB8cKlXlF2u3+w0NYyUWdHH0OIPUm/FHw0yOqNDPMDa4t5R+HUYGmRNLE1v9Ge6htFdqC3MqXw5xzHu72bU0MCmjhXDWaOIcDOknZMus1FFnoYBnk5so3lPHDcImnSrkef4MasKS4Dh9ybtpH4GBhOqpkD8ynY7R+Xfyv2S6ql3zpc0FLvWOcmXY1OHCLx8TbG5h08ig41cAkCWrNmpuld1TLL8P6m/BZyXvEtBNYPFlLIT8nQIf19KldKCy4E1fKxWWz3pzqRkbKUEiaUqS3JowVgwzs3MEXer7PPMqTkF53sb9xechZujFgBH/Gbal078l4d5dbYKtfkXMgtANZrCq7B2JZ+xqgQn2xG1t7OMhbqTTEugr0RLfpFfuTUQAg/9peTv/pPtXh0mb30uSZvehKXzsCpHv+C9E6knGQDG5NJa9IvuIvNOYjAylbfzLio+8VexE=
+ properties :
+  width : 450
+  height : 300
+ controls :
+  -
+    name : FI_Indicateurs
+    identifier : 0x2698d3a54337525f
+    internal_properties : CAAAAAgAAABYdzoINUXrCPKne9XgpTux4FXSyxFMLTkpCPlJRdlNq36zpVDNOwbLe17Yb/1P5QWE4UFPVMR7nnuQ+RLSR7smFLuMonEpFSb8ot0+mZ6AtYxfYxvyJQ46oxRApii0IVJbnyskHAisQQp0hBZtk5iEIh7cTJVje0AM0o/xINiNJFntQlTgQbXV3BLjg1G9ExqrSDkskOoh3ATI95oR92girGK4TMPLYHfTZrDLG7cJ2Wn/SeLc0vl0qpOWd34JKd4O2U+FLokyFkXIMhoUWS3v97yqyqamOjQLUj0clx9J2rW2bCMaRZBzpbTcEPPB1FaGNPdOpX91QPY8b3rxBMRF3QYaFYj536v6Ys4sMAHMblmxruIiK7pVDGccU7AaIC6JXttqjBCYl0A3+1cX60qzennL6xmuRNTfzvzG9Mu1j6d8xTBmMvDIKnnn0TtcXuD41DVsmdqDX3uXpHSqV3ZVkB1EBwfltQ3kd7lWyeo=
+    properties :
+     width : 450
+     height : 300
+    controls :
+     -
+       name : LIB_FondFI
+       identifier : 0x2698d40a4402dcf6
+       internal_properties : CAAAAAgAAADaZAwHtLzXOozrcBkm1ps1p+YL96L3WkZEuSgmlE2ED/MzsTzqfBGNvVgOvwM0GTR8jjRVy3tly6b0WxD2XlkCMo9txDMB+lon1no092S50A1AIVovFXcnq/WNx2736BLg3Ha3sBTrfuvMADn7fswpoikLVhwpEFeXb6MkMIA/aUDQzbmMzLgkY6nn1S1lbvoOPZfnE5XSs45MIgJQOE4hSif3CyHbJZDeNRInSN97c4XobwQF64rBY1giBtEsbRaP+32lFOT0xCewCXjQHTjRoxnlSDXnkkLN1jMMXZ9+6r1C+7s5ntIhrhhAhNifScDyBRfEb5EHvHa/9zCDIDXHbOYQ0tQ8F2QWVZiqRdB/kOTKJIeMkuyiWpjnezUqgQ1xq8RTlb/tT3P/hukUjUiWLVtWncxs/olz55SPWbvQnGULC2EIrkq0H6Gsm1K/aM4w3ia9tGSKnUHSjdAZrjM/Zk4o7ZTWYPd9AJoRo6VNG8ppXNKSgtAzzXR2SCs8X5SFr6pSno5G9EmRbq1ox/Q2JOrO7ywcLthuLrUikEslNUoydRQ33mzVPflrL4jdV8kNAWdi44VV9DveicGLxN4+yB28aHXUve4jIvtgZ0S8IPf5NDahwYXpG/vYU7ZO+Mlc
+       properties :
+        x : 3
+        width : 448
+        height : 301
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_Nombre_de_factures_à
+       identifier : 0x2698d65745a2da7a
+       internal_properties : CAAAAAgAAAB/quYGS1kCdXFlFZAleNK6slVKbDpnBnzLWKBsZ4bYQXMIKZyovrNioBER7trTyHVKkmRageQ9ZotiQwOEtdhPwItstzD/U5v94CeVWkvqjh8d5nWSOUiSkDvFPHLJj6E1vpGJoRcXY7XQdvgQe5EDfB8pA/NtN0gBhOtTnAlrQjsy4iN/wA655B5/+BVSg78eZQXplvQjywX5ZsP3VK6bWNig9ipjgmjP8f8bxmCwBBZnSaIvqPx7/YNaLCx39D1eeeEuGGQgo6uI8tHhHbdqNH1e+9nPQTH1awuTbAsAoeb8KdHplF1VEHsSiU7XeEHoImj5Uq2QGV0tUkX0qZRBmaBSn3OLoqHCuMuXmA9L9hsn0Nvvqobx2VLtwN/uTef1WBYx+pqGdxCIrY43mc4Dw35Pv3yrDeKFIjLHWnNwQcVG5QWU8gb2u+Rs4sLN5IiOCgF825WJv8g5GOlEnfJ+g0CGT7Od0xAyEHzkO0E+lxYqx7euANnweD6Rr7ZVO/LFIDqEj6p56p75R87J2sWtLpRypxIQb6jFcPw=
+       properties :
+        x : 19
+        y : 235
+        width : 251
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : SC_SansNom2
+       identifier : 0x2698d65745a1da7a
+       internal_properties : CAAAAAgAAAD+SqJhBM3TcJurQf1KR8t/JL2q8lIDF4ajUpaPaFp1Y5DjnsaRdYyYR5ezkKq2bCcLI5jJ8RCgSv8/tGJom0yEYDbL3iE1ZWjzXlTEzS6wzV9To5ti86Ir1aNL6cwbGv1xLkuDudB6BtBjcsqv8aWiAcpg4tthLe6Mcaa8VKcB/WLRCyu+k3n/Q5Rco7soFUxi19Yptubz+F7gCrTWGrz2b3pKtvGQZbVSU6xaxSF4nQBA4CKywNR5tvXBKZ/z5/Klss0X7Lt36utsW6ihl66b6Wgu12svKqsohFLNl3MRERPkQirMKBT0c6NzsB6Wyucd4oQw1BaVtHbzB/L1hGPCShbaRvJSbK9mGSfVVi42FeP1NbqKziXSvpAiMUuOrVR8dzBuljbMR98k9zoe3U/GIRxyzscqWKWwmSBmD9s42EhpRHAmQYCShcOhJZBlR1cb33BVX4zXJhGR1G9oHsu0/jpLeimXY0V4KXo5rz45H4gbWP2i0mET8xxd9OCUSBES9YYhB1j6SeQC6yLfk4RxLiQlCKt9asd8wf+EQd4FozyAo5G3yAo5/MFDsRt2ZAlwnAwJd7n+20Si/YRH+YH5X3sCGVkYUctNsB6jB26w59ZF/KtCXk1nb6ac8x2KeJYZvLUdyebl1txd7w6s7CTzklCboCyrlo4fSNhvguC2+X9BKghauWkLb13x50L3AfQ2hNhfiVW4sQ7U/44F1BCLj1bK3Uk2fUIeHdCg4s6KkJtyRxGEuzCCRCX1wUCXl0V/cxkWWqiE88I/POkC/5IhcU59KXAFWMVjlfrIcBUcrCbGdWNfp2TfO3JnvqFH/YeQ21Nk
+       properties :
+        x : 19
+        y : 223
+        width : 412
+        height : 64
+       controls :
+        -
+          name : LIB_NbreFactures
+          identifier : 0x2698d65745a3da7a
+          internal_properties : CAAAAAgAAAADFmoJhg0LIUW514Nj7Dr/KoUmtEi7LRI30hZADCcwlEE4LI8tY/S/fXdYwTlLHOjQAZn0mRrqhDwYp6YqtlnorMUUgKDBNki6cDg0rDSaxXS8rv4SJ5tIps6T6Ot3WPB86UcxS5553u+ya/rFx/gxAwNuBCV9aO8EQq+K0shpOADptHnmCaeOp01rU7uAmwqd+Lon8TLAv2gOfp83ApzCGgFXtZtd/BZPkdWoHAYoW2mnkC3m4mUVWTveOoQsZAA0STGE9I0UxcTKFKl6Bf4nlxNcq2Qu6f40p0NI4nvZjIAaxg+u82taUuWhMvvHBu9zbi3h6EsEavbyDZJFOj2cxme1Uec8uVyYI3/W9a5v5LTtBYKPnzjyRZqqbXCEWflATL4HD6dBHn7NFukfhOJkKLCGMNOsZsfiyg1K7ZLR3vCGHc2LXBSKGySbl2vAcyQKR142OFt1R77SQ7ZEb+iwwE/k7CHWEf1nF1P9q1y8oS/GAcJBcLZ3m8IvT3bYX+HhCYXnhQhgnJJ/DpUug6Qe+85xDMn5McQog5B4kfm8k5zTvpKi
+          properties :
+           x : 257
+           y : 12
+           width : 153
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_Montant_des_factures_à
+          identifier : 0x2698da03498a341f
+          internal_properties : CAAAAAgAAABnUnV9FZ1Od/sSitXZCXwwEzQ5IqRvInYBobfwNNwPbPy8u84z6SMUDmXKn3haqyMZxhhD4SjiAeOTrIw1XXavKCRG1nioPugwNkHdNqkAPdtsEDpzzmBicBInBtpbdKgX3pQSAmgKLIgTzX927pNc30k7IGwx89pCIlwV+Xn+Y7irAste3faAMsLsrjBLgGe87ac+mFfotg6BBaDn1KPcDV5p4JSHoW50VmDBXMBh8+3MpgQmAOoLIBvThBodbb2z6ARHquDz2KF9mRYUBvuSksRR8l/eATwZta7qMBTuL24n+OIXM78S5GE5ttRgEI1S99tUSMx+sAeFd0Z4eCZrvcFLjt1aJHYuKqiKLMrzau1EnaJljZY8tTykI63j4Wf3XdmQ1Dn6vkqIuNGL9MDFy8nCxKgQq0VJJPkiQNpwHVtxIGQKbm0aDhO0EHD9DkK3L4WIdhXk4JwvBNFLbdTRBcP5HKzgOE5d46zR8lGsBCdB768PKWByToqJoWEwUQ2PJKRTp8My6yWifxreFLK+eky59DGnFfw/oXMY
+          properties :
+           y : 37
+           width : 251
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_MontantFactures
+          identifier : 0x2698da03498c342e
+          internal_properties : CAAAAAgAAABtRLLF82vcxkS2WIjoTvFYAvodbxJrOvj65KNbFAOYvh7hqK68kYw0pUXoNK73D7gb9wdU3fp73ZcKiXMjlO9lzm7FQOV/nzb4A82yKRxyfs5YahW5OOak0YzLNX6bsfCo8KyAOkV1KWmeaWSMIbBJF1bf4LofNLUnRA3VhttC6unmxY4o80MwCqxzixL95JUHb0E1N/Vx6WQiyNF5NGk59Ff6I8X4MW0g6Ulmwo0wdKjZ1YVTG40DEbh3xdXzc/KERymjbRQjN+D+wEOdIARTCOLBv2sqrIK+jCS2SDFSMfPW4J37+8rsLVT/ipvbR+2OJcZM85k2gBQIX9Fuk8bYzAUDbQkjz3pyTdaTu4UgAFAIT8+vg36hOnQzbG7VejQuGhXcEgoVwfohqMGJxEZ/Yl/QJbSy/1jF7Aip6+kZ6aKZJQYQDnIQAyTmx94sHCyxcWkYS83UdWonEEdSHOyxIT0k8aD5BamUBCNz2owr1kqnxDoyl5/vH9VtqjcHMhjzPnh0tIadoeBOn/pHE3mTwvae0XFHGwi8LN0gCAafhzNfpNfbWpUJYRaHntq4RrN2b14V
+          properties :
+           x : 257
+           y : 37
+           width : 153
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+       type : 40
+       code_elements :
+        type_code : 34
+        p_codes : []
+     -
+       name : LIB_Titre_de_fenêtre
+       identifier : 0x2698d81446faa677
+       internal_properties : CAAAAAgAAABXUxH9MUlZmUau687Fv30NqYx6+AjA1F6RAG22g/pXfnUZvI1/kZIZ9qP4uNefb9lT0SXSiA2EMgaYHU+r/DDyeYWxywnzPw17oF+bNZ4E8wtiDWzFQgWvsPnRUD5Cb+zYqtfd9TT0qkbBFx5Atf01BUpPUaJSkdi4YcGlfjvcFKGGoMJ7Z91dWqkukDAVnubjrm5Ig+ssBaFcBiPMPwVpxgZVv8bDoIRwFz2DNY/OagRAeXCHonBhjNxaRaL9r1UEliEwJqUOrSHEDZ0c6lyOM+/vdSDEaeVjvlR+6PSsFz/kgrjClHkiCHOf8TjtP0qEYBDskTcieJfo1e+iUWXj0x8+NC+CpLuvRROGDKSmg8c9zmvEoNy25tj8TEo19pqBq9ieeuqDyr/9NP9dRiYhje+fs8GPQJ7+fkvdJ0j/sVcAQBix5/1itRudA4Oi+GrorJ0r2b+/5ImcIS4lR/lfhJhUvjeBGWYK9MvnJlaYAo9Vyds6Yz5A2MrFJPTUobom+DZHl+1CbUqGkQ4=
+       properties :
+        x : 19
+        y : 221
+        width : 412
+        height : 3
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_Chiffre_d_affaires_net_total
+       identifier : 0x2698d62f457d3fef
+       internal_properties : CAAAAAgAAACN/dUUqrx9NdJsODxhRhz5sRQ2BBveX+DgHRMV2ptFai8C7y2mc1Ut2OeIWPIGCGOteoHaWXBvk6epkTz6sf8xax3OyRV4AHVNbcKTbsKbEIad2hYwtjkviPKnw2+kY1Xsx7rIqpV6C/anX9y8nvnYKgW6ga4Tb3DwwUfEjiJPjlA3czI3SVpndc1cfKpNrzwB0DlesS8oXNDj0w3+IU5HW4SsB5p1BuBBo2Q3jpTVk6XCNXsDs/bN5YOsZR/OnLTwi+nsWoh80e5iDpoShLdHYGTATh8m2eR0Sj2eTcG51r9lgJ8FhOPLABXeJv/NMspzd7xq2cfczRznlnDPhx/Z1baj24o0WUikjxmq8JAz1oJZ+vgglrvKDPEPNCDCOuFqVrDRRg8lJXbMJQ125/P5v0dDbOmb9TiVY2BEdQ6dhs6bm/45j1LBppCXHWCoCtDOq2OisdTIYmHXxZPe3wexAUwz8IpWq3q7+AVn7qdIiSLKxWWfQLd0YVfqxFXdjO+llEXWUi+MbUeie+TrDM5Hn3gd6vFdcwUaOBPWVRAtVkES1U55cfY=
+       properties :
+        x : 178
+        y : 157
+        width : 251
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_CA_TOTAL
+       identifier : 0x2698d585451ea7ef
+       internal_properties : CAAAAAgAAACSZuMC9VWNJRsC9e/5Ulhcg5m9LPJ/+3SVuls/C7DGb0v7TgJaq8NGipx36d24cBS3wEbIxVxiuwPKHXw9rZikAOJkdJ3K2C/cWixYJOH+z144rjl1sSjBqeyW6DmK1Onhtow/i7xoVchuqCAnoqhSpPBVw15vnmtiu8qDSmrSH3N+3KXj+XmvF6JIeutgEHVV7toiXcIpse3zItcAlxrKL95g3xkGSGX9WQMRxbzUDKl2CXQ+C3iVViyes9pYKxWe38shIvqVlqO84W40c0ZdfZwEYcz6dW3iNia3P11Z+99fmzawVcNyNel+k4l7JvtjRKCCrPMa8OWoz5gKqXrFWcUtDNYM+kqkXvfZc7X23Q6hmopjILxZGoGs4yc62Ncby7UmIuYw2UL90JsuNxMOUJqC5fYJrtybUIr3FGbzgFrHPaUQt95FP2thUVDFqxZodZ9fOhi38IxaiJ3s4VzWyRWiaOoadUldzeVfVqfn5kAni+sfYccMeg8+TAFSQ773I6kau256oGoUPyCxx8EiEJCOKaRnpZ1yG8lJEAZyKX2hCC/YCY0d6+VjzPj0M880zTG+IJJwS/Y9SjW8/zPgmH+P
+       properties :
+        x : 189
+        y : 126
+        width : 240
+        height : 32
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : SC_CAduMois
+       identifier : 0x2698d5fb456c75c9
+       internal_properties : CAAAAAgAAADgxr//H460DYKymBwoqDOunh8fhJOe+r7Jyxn6FEXayFNCZjg5geGBIf3gUZ4e3h6u3eBXVuNOoev4d4JflQ+R3lqlR3GmGU1rG1catCVfi4+yKmAoTY2yRNt2ZWREMq7Q2zyJCcubI7wiLZCQI9KT7VSrwZNX5eT4nVYiRhd5cHkcmDFhWrY+mt/zWBrY9XUvbSbsrVevEs+u+X7hybiPpub7Ffoydl/P3W78K/q8cq2/dj+k4kdMFOKrW8CBPRJ/wrMBDjTsJQCbcrBlUbykETZl9ab7qBNFoo06J6c4ddNLG9uNTOr4BmH9WQcjprymQ61e2Mz1ziZFPhJ7V7N06Xzi1fEDJFPpiQWQt5evhTcFNlfCNkPREzNtUQrTT6t38z0NxWP4nTecmFNj5vzB5YZreGHcy7f79Fvp+ta3hWJs2K1/6kHWkhwxAVUu3zmt+t/c/G3BwqRmQl7KdM0ylz1SMTD+lMED4cmo1T3DNF11Umt/hY9RRgcIFOgZzCDcrLqIDi4i4wERKd6MW/a2aY7nr1Ow1q09I7aqx1vrvMVSRB5F7G59I4mWH6e5dK1CMDx99jNWL9XUJZUY8m7BdrShL0gE4npq+EaXxizOs/rM4ZsEVdc0BL00ruGAUv/OnqQ7QGy0VU99ZABpB4ZD/KIgrXgMlQrO5VhoqmjLRS/C0DTDdOsG4ykJCMF6jczIaMISXBa3Abv8PcXE8QQfN7rFRh3yPMi6CyV1rEQiq4TY6Z732FY5n7b7RUCgCdMksSquTAP//kTbiG9MXYIEh/HoRiyrg6UsfmekeXhIuh0xx0SnPjiaQA==
+       properties :
+        x : 19
+        y : 60
+        width : 412
+        height : 64
+       controls :
+        -
+          name : LIB_Chiffre_d_affaires_net_du
+          identifier : 0x2698d602456e8f8b
+          internal_properties : CAAAAAgAAAAsxnEvMKRJIzQmtXmVJrWwWeZ8IzJ7T/AoETOrCxXCNa8Un96shkJiHE/fhkM1vQF5tw5aKbHAR/r/5NcRGDByIU6wTI0kd4hZSihzgPEROQBIH4/zhzYPkfQ/DoRFcK6wEqO/Hlk93zxpqid9eqpxrejpxMBaZ7oCZggHlJ84f4u01anzM/8rkRLJ4t24Zgl5csIbi9xWUMCTtOi8KHsuNUF5qf9hUp92Xht+thL8SpP0tVtRjGG47oyiYK4pHraWwA0dDiKwkV0tn0bD9APTmBnZBpDa34H/1GSdM9C5Ap7ED2Upx9CkoAsmP5kUfiL3k46HvG5pQYNanatJta7HOQIySyxVzQfO+7e+I9JLQZW3pScvtRXLsEOCBq0Vv/CzCSOAuPT6UMo4jLZhNhDBDiKtn4ZU0G/20PM42z1FmDPH8jAW+lsnDm9R29oOSI9xVaRQ2Cw84duKKeW6od/RfyZqViOQIpdkY+vLXh+fUVx5MRDYxeIr4LkLoeGrhLPLt5vSfmp0rBuwvIzMYjbPgN6ucNiUxQQ=
+          properties :
+           x : 12
+           y : 11
+           width : 251
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_CA_MOIS
+          identifier : 0x2698d60245708f8b
+          internal_properties : CAAAAAgAAABVvImNkzCNfVuXi3frdcQLOjop8az1WxDJV7TJ6MZtFaaOMeszuHyn9KECikzldPRClcUqZlCWudWiNFG/+z536SJAyCwzks8zS1hoxnYOFkfq6/Lhjnqw4zCAbJEiONLdnFqa2FEKq5c+KdQ7XCPcKC8tbieEryeLalcwwOzwLI4dZmelVp25fY8HTeDhdSXIPb3SWPpbBnLgpPNIJJefS8ExMB6qpHG+noFmvwVKkWsRM0+cuK4knkP/hX46nIc534QgLD/AvDCP+sv3xHppplN7+T3MmxInkOdXCZ/GwSyICaydVdCxF5ViKvG0SmByWtWydrmwhCl0/u4PGMC0D/V9WUp50q3IcCWXMHRfw+Yco/29rc+edypJwu3BoZ8PymYZ3Vsyb4PDRXzStX4mN55JVvMnpN4KtVFWphCX+7JyrtkjHQhjEJe5zgTPt/9HMatILPgrHZBNQ0/rDXzw3Xk6SQyW9jAuEmAYk3w7UsvoyLrLW2B2V5GB984knIJlgHolRytWGLo0ELUO3Znv4MQoONwS4Mwr6IB6LuUMArIm5xqC8xiCTt/wQcFnWYArd1Yt
+          properties :
+           x : 12
+           y : 33
+           width : 251
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+       type : 40
+       code_elements :
+        type_code : 34
+        p_codes : []
+     -
+       name : LIB_INdicateurs
+       identifier : 0x2698d3a943436337
+       internal_properties : CAAAAAgAAAA3AQJWmALRUGjeXs+t3mU98JOXbXDVdeEWaj1cPETEwj/mUdtEPfmNtcHJ8dKSX7tVYkta03dVX/eyR/+hUD0wFzvHBJF/6R8afp64Md7X15b9cdTvt2SNz4ZTzMaWhcGsOSRBcugWfapT5E+P0wvl+RcWuehQzb7Orke4Yl1bZ2bgQxzOtIebL7bemhz9TXn+5m3ME21+9VVv/2Sko2jEPIvdMrs3qFoqrSwP2FCY4kCPPTGO3uA3FDMMGcRVtkfA13XO8+1B0OvNHf6qp1ZhilCgxs9JuMmPS+Op6NmwlbRz0UDzmIRmJosugpFAAH3LFyRmpLiudiZlj4lsE0vsPhRBxx1Glf5XcMNEZI2esv7c+bv6CI36NbJ4PuP8Np6lcBqcKKXj98FsPqTRZ4NzVgpFYPjxbnspIjwGgMy4/GVMHVaE4WJJ5YhCru4Y+jJoc3VjcZ+mEee+hW+3AviSCWCLJ75KCqJW1L4rf26xcKkCmiFlbPwNYUM1U7DoNCIHzuZ1T1ZZkg5rZnaE4w==
+       properties :
+        x : 19
+        y : 18
+        width : 118
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+         
+         
+         LIB_CA_MOIS = CAMois()
+         LIB_CA_total = CAAnnée()
+         
+         
+         (LIB_NbreFactures, LIB_MontantFactures) = CommandesàRelancer()
+ menu :
+  name : _Menu
+  identifier : 0x2698d396433318a1
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : CommandesàRelancer
+     procedure_id : 1628327491850990936
+     type_code : 14
+     code : |1+
+      // Résumé : Nbre et montant des commandes à relancer, cad en attente de règlement
+      // Syntaxe :
+      //[ <Résultat> = ] CommandesàRelancer ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	multi-valeur : Nbre et montant TTC total
+      
+      PROCEDURE CommandesàRelancer()
+      
+      //ON veut les commandes à relancer, donc en attente de règlement 
+      REQ_CommandesSelonEtat.ParamEtatCommande = CDE_ATTENTEREGLEMENT
+      
+      HExécuteRequête(REQ_CommandesSelonEtat)
+      HLitPremier(REQ_CommandesSelonEtat)
+      
+      renvoyer (REQ_CommandesSelonEtat.NbreCdes, REQ_CommandesSelonEtat.la_somme_TotalTTC)
+     type : 458752
+   -
+     name : CAMois
+     procedure_id : 1628331056675527897
+     type_code : 14
+     code : |1-
+      // Résumé : Renvoie le CA du mois
+      // Syntaxe :
+      //[ <Résultat> = ] CAMois ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	monétaire : CA du mois
+      
+      PROCEDURE CAMois()
+      
+      dDateDuJour est une date 
+      
+      moTotalTTCMois est un monetaire
+      REQ_CAMois.paramMois = gauche(dDateDuJour,6)
+      hExécuteRequête(REQ_CAMois)
+      HLitPremier(REQ_CAMois)
+      moTotalTTCMois = REQ_CAMois.la_somme_TotalTTC
+      
+      renvoyer moTotalTTCMois
+     type : 458752
+   -
+     name : CAAnnée
+     procedure_id : 1628331718100580132
+     type_code : 14
+     code : |1-
+      // Résumé : Renvoie le CA de l'année
+      // Syntaxe :
+      //[ <Résultat> = ] CAAnnée ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	monétaire : CA de l'année
+      
+      PROCEDURE CAAnnée()
+      
+      moTotalTTCAnnée est un monetaire
+      
+      hExécuteRequête(REQ_CAAnnée)
+      HLitPremier(REQ_CAAnnée)
+      moTotalTTCAnnée = REQ_CAAnnée.la_somme_TotalTTC
+      
+      renvoyer moTotalTTCAnnée
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0ba0323dfa6
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

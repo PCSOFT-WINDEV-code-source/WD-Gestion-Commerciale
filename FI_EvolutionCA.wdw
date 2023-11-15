@@ -1,0 +1,164 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_EvolutionCA
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_EvolutionCA
+ identifier : 0x26991aa453abab2a
+ internal_properties : CAAAAAgAAAB4mM8GfmFVUTxZEI2YlWgFt40usTegRx9JNLcXNaRQrY+GKuM94JS2AQgJ7AZ8htFVAtxiWKa+UFZcHOnu+5eBsMz+JpUBXiMERDSNp37oBRczstdaAMPEoIDCFJ4/S6HZHGoOGFFQtEWCFttxvZM4XbUvm+ZVV9OXNszn/XKMHYi6SMhn8wf3bFsOjknPjhNVyAmaQetzsQLWab8rbM/h+7LH9a9Dkj7PkUUhiGeSGPPOI0E+9yPDVDaPT+LJkIgnlz89puG03s0TOvBYbGVhxGqQn6vUTU1aYm1CH2Sz6djobbgSVvc5Xu8UuVC4VEekYmMruxVX1YAH8Ej0mB9mCT5Lhy3jBr4rLSZZz91V7H4wAqOqD7eNGDXPjv8KHXnVzmfBMmwdEP1iinSNv7o8WGoVmYsRyU19V1JNJoplgDBM75xvAAbKSXtMLCs0xiVOM6Y9CqUhbEcRQ2FCG55lZUsIlcnajBCkjEEu918l+0lpws3Gez5fsGD93yKukEhQvN1QPJJP/IW7TPjKjvi5Ix7Utr+HEhN5Jmd99+iossIBaRyy3+B798YYuJNQJGaDjtZZsMkeSBlZWXrUGyKQN/9+70m7Wqbb5/hL0JuNQl+G1/kWNSLpcgVydj//xAsrStphqD+F1fASQ7kzqmmQU5DiPc+3ymgMZmFu6vgFMyjeRy9WF2PsQaUzBMF0HaLTU54gcTADb84iEMavOVLFEa8qKfRhs+o6fK3h07JI+xri98ckQqFITHprthX9gkuo/TRL3sRD
+ properties :
+  width : 900
+  height : 300
+ controls :
+  -
+    name : FI_EvolutionCA
+    identifier : 0x26991aa453acab2a
+    internal_properties : CAAAAAgAAABYdzoINUXrCPKne9XgpTux4FXSyxFMLTkpCPlJRdlNq36zpVDNOwbLe17Yb/1P5QWE4UFPVMR7nnuQ+RLSR7smFLuMonEpFSb8ot0+mZ6AtYxfYxvyJQ46oxRApii0IVJbnyskHAisQQp0hBZtk5iEIh7cTJVje0AM0o/xINiNJFntQlTgQbXV3BLjg1G9ExqrSDkskOoh3ATI95oR92girGK4TMPLYHfTZrDLG7cJ2Wn/SeLc0vl0qpOWd34JKd4O2U+FLokyFkXIMhoUWS3v97yqyqamOjQLUj0clx9J2rW2bCMaRZBzpbTcEPPB1FaGNPdOpX91QPY8b3rxBMRF3QYaFYj536v6Ys4sMAHMblmxruIiK7pVDGccU7AaIC6JXttqjBCYl0A3+1cX60qzennL6xmuRNTfzvzG9Mu1j6d8xTBmMvDIKnnn0TtcXuD41DVsmdqDX3uXpHSqV3ZVkB1EBwfltQ3kd7lWyeo=
+    properties :
+     width : 900
+     height : 300
+    controls :
+     -
+       name : LIB_Evolution_du_chiffre_d_affaires
+       identifier : 0x26991aa453aeab2a
+       internal_properties : CAAAAAgAAABUT099TIIyLwC2I9Cpj4ZV1tv+8HT7/+bqVq60aovYdiHP0Hf6YrKtMiyFsMnJr9QAinHSi2A1BF7FZ2S+PHell51ySD2a5F3XuRlBekj/MNorrvGMPMFGsgFxiL3d0NIm6hf57ZO4460ZZMlpYh5uR36+RQdA81GQhPCAz0xFohgEpce3BTsw/SwHYfbS+z1BHiUy+SRP9u23djGtIMP0SETdoO56n2Ke2iq3vIvEMBLFq9/zps1p75/XR0D0K+JTwJqmAtjuhOFHUZFXwQTxkEqccvyYlkKcJMGTOH+B9Y6XXF+K4UT5aTV95kSS+dkI3CE3BZ5F6gwX7U0hfK78RTr1ZYI3axjqarxd9xSd+SChandGhsjc8ToyLpgMdAIbCbq83QgxH9/Erys0lyuP9fPUA/K+QIDYACFrPoy/UcqUZ21OiM4hWWtibwAnbogv3taY8/FkQUWKrWtK28i52qGKwke3ajEJwRR4qwj0dMgSrbM+qGJNkBxLllFNhgkYYiS5z4qI1pigCeQ8FVXviPPo6ZzI7VUvYRktvJMuOOy2LBl4lTw1Y8RPZs+kMYgRKkJEzdxTgmCIjYmjHM0HRJ8QUHE9kh1BoNTXGIAtQdA=
+       properties :
+        x : 19
+        y : 18
+        width : 685
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_FondFI
+       identifier : 0x26991aa453adab2a
+       internal_properties : CAAAAAgAAADaZAwHtLzXOozrcBkm1ps1p+YL96L3WkZEuSgmlE2ED/MzsTzqfBGNvVgOvwM0GTR8jjRVy3tly6b0WxD2XlkCMo9txDMB+lon1no092S50A1AIVovFXcnq/WNx2736BLg3Ha3sBTrfuvMADn7fswpoikLVhwpEFeXb6MkMIA/aUDQzbmMzLgkY6nn1S1lbvoOPZfnE5XSs45MIgJQOE4hSif3CyHbJZDeNRInSN97c4XobwQF64rBY1giBtEsbRaP+32lFOT0xCewCXjQHTjRoxnlSDXnkkLN1jMMXZ9+6r1C+7s5ntIhrhhAhNifScDyBRfEb5EHvHa/9zCDIDXHbOYQ0tQ8F2QWVZiqRdB/kOTKJIeMkuyiWpjnezUqgQ1xq8RTlb/tT3P/hukUjUiWLVtWncxs/olz55SPWbvQnGULC2EIrkq0H6Gsm1K/aM4w3ia9tGSKnUHSjdAZrjM/Zk4o7ZTWYPd9AJoRo6VNG8ppXNKSgtAzzXR2SCs8X5SFr6pSno5G9EmRbq1ox/Q2JOrO7ywcLthuLrUikEslNUoydRQ33mzVPflrL4jdV8kNAWdi44VV9DveicGLxN4+yB28aHXUve4jIvtgZ0S8IPf5NDahwYXpG/vYU7ZO+Mlc
+       properties :
+        x : 3
+        width : 898
+        height : 301
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : GRF_EvolutionCA
+       identifier : 0x26991ad653fc6f35
+       internal_properties : CAAAAAgAAADlebLdkM0iCsRbukcmlAyPB+qR4cCE1bvQl5WKtHvAcvP5ep2vLY++qYWwdRG5Jyh0HI69E71ZLWmcISjOrNMFN1eYzmEBdD6aH2oZbyABnCknNHgO1xxaclG4SOznhs95PzwbQ0Y/mChg/vQA8T1tnyl4ypBPrsxXl1TqXzE0aidk7edxGH0xC2aAVRkduz9vKWlg4Tz18aWwOmV90rcnNv0WY1jN+qvGwVJDpbQYbw8BfOj+ave+AL9CWDhXkWObsaTwtHAokML0cX3fOP0NL52XnDbNaKnbUqJsf0zaftWpWkhneSzmNX/M0sk4Om5s8gk8vCxQorkNZweXTIHHpvBIXKBhC5Z90jHQtu1kErZiHv2IMK/noTKsbbk6ENY2D4M8HgMZpamjp//zqrHJBi1ByXd5SJXYEqC++gcyKi1ZRa+ARUqfd32sDoR80ZNbcCX5G3hTMjhrv7SHAGcrq8leCTIOfd+UjWxFUa1evk8AGPTuB+ONLrVtuB+wVnt/egCX8eJ33JL+aST+CLtkO5MWgWxQY/JLHeeyqW5S9Xirft9TAO63agvpw22yNo2AEP/wE1p1MbQ8O28Zu9Q+uvvA4rjlmrXTXVoN37S9U0f0/bfCh2mOaaPYIPFql27UPgidk1wzOd0ZskJlJkBD1V4BNoZgAEOBqWTgjIBs+s9x4eC/CKbxvUgvUvItqXKyUcZ12V1vKwmjj7i9IZtEw2DCNQ5RydrtP0SRNRD/Z7TTZigf0bpBfQX9OACrVWPYFTLi6gNv9lKD42oEOaULz2Pujwn8tfdy3n492AeCkAYJIpPnMA8TnOUpTPn8D8lk3EBqdDCfmxplQqxpP2WUxguqDN4zMkjuP+bVfiXAAixIVCy13PCvVojduHXRwdbGbgaQ40X+vh7YyaA7Is1OJpHSdtSX739jQMupDATh9TgCbMwLWO2rrZNAXZsQSSrcsyxPoiETi1pwi+iDIvGmOLyJybj/rtrfMPbzZp6DG7vGGPNWLhYgGSudFREcIgK/l/c5ce/GwEBIBOZRUxKHkVEYDa7MWFJ70sXZeIW1QNBcWGH8A6OsVamVgXyMezwNQ2C8Sl3bqYHUE7udFDaMk4vDS4Hfra+11WDdXq4Up/jESsP3SpF0aZ1h3D4DSdGnQaXiNSIXsR0rbUIfDRgOM2hrL7BQCGyToRF+fKxsIKRRNlfzLpb4c0hERZz+usHm1TCihZv7VsJMiQ9WlZYLAB92KRW0k5XOdExr3icQmhZLw60Qko8y+H/Dpmo79jtiYhFKfaoy+dhfpWhH5/EUDfYV5x1OLvQQc6FAM0gF9i28louPyXa8oUztFeIlle4M3t7ocN8thYyun0UMH780/g/axv6GXjRXHOyPymLDQC10DDxF2qMv50GCUGIPBHyaOderhnAMzthLUSTT6jSK9ZHvINaYTNMFPxF7WKWmYpoPOEksZ63Ev7ttbOvQSywWkKMVqIVwaF3yaiPa9TGgzkM8gd/Fz4MfwdqR/zqkYTWiihzq3BjKPElfBaZLxD8v6lLdt1d0asaWeLlwlUKullGW9VdGnrXLXxXEcjKNTiMMXh1LactEhS3cShUzNnK9pIJ3B57o9iSrDJwIbx7liBJCfkRInZh0JrxOjhnwtL+6Vg==
+       properties :
+        x : 19
+        y : 53
+        width : 856
+        height : 224
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : BTN_Détails
+       identifier : 0x269cc3e71635c72e
+       internal_properties : CAAAAAgAAADWt40HPJ3DHEQp08NpJRu2sXbIDqYJBU6ZNuHonSIwWsY2iYawIWqZHiHUX3t/p+DdhjPmel5c3/6abxL8yWdm5tfZCEFU3b/C8nqJM3e+z2tywnMihmgjN18xPwzOZ2+PkxWYUBtA+352Dmq5exi4Ok5m0id+L6itkAamG/ysKygmx8B/kTESTER5P7LmmLVecTG95YZcK6Ylv+bKGHZPB6pYlMQF3XZrnspKv1iy9g9fM5p4Ao0Eb5Kz3M5wlQpewGzkl6F98MXff7bgySTqgU6YsXf0xzNxCbvah5Hf98lW6vNFySC9bNer/Z5iCEsbGPWSSmA2IIUBGrpljbaR+KEfBvueJsEgHJLbSqHHn2T0p6LI1yPP3qy1toFbJjPCbk/WQdNE9hdwCimIweNidqnKXWFKkXsoYWFT2F4QtcNnrBCYD15CedXwcMvF8RNhUDkvx64Ka1jssJl7iqu3roV83OpLA20KDBLI+xxOavN/K2GYcoVlMkuR1Yl6V+6LVxAmF2WEOuzAkOiA8cJrZuuI/67S/djQEOAsV138C8p6gflXJtsn0FRoeZB4jUhBNq6OC91gxOurh3xkSEdtN6eRxpZSVyPjtbttwyRL6J0ZjFYa2Y6kOy7qg+FPLs5XGFjTURuk3x9fpPULDQ7D8vEwE+Yxx+cm4CupJ82Ll+23D0Vk8JhsxbG37k4pYVNNzZ1UIjpUHDcl8CneF+ZbUbwVOpW2g85a37K3z9OhXCTnWeYrI7GzXDFaL8Z49kyzGKW9LPivbFbPSTeP9fuQoNWf6uJk6u6NKISn+BTiAs8tDRq8lQjahgMQyPh3e7zvz04UvBCtZOtB13ocMIlEp2/jPHwwthyZjGtAMNgRqXl2I76zS9OOj8IhJi+mef77noGBfeaWue0pi/1HtZoxVywIFNqFZgn77vOrAyslAC3ztj4A204nbRNlxS8tJG1aqHhZSKqw2RQ8
+       properties :
+        x : 710
+        y : 19
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            FEN_Onglet.OuvreOuActiveVolet(FI_Volet_TCD_Ventes, "Statistiques des ventes")
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+         
+         
+      -
+        code : |1+
+         RemplissageGraphe()
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2698d396433318a1
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : RemplissageGraphe
+     procedure_id : 1628369767230219451
+     type_code : 14
+     code : |1-
+      // Résumé : Remplissage du graphe avec le CA des 12 derniers mois (et le comparatif avec l'année N-1)
+      // Syntaxe :
+      //RemplissageGraphe ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE RemplissageGraphe()
+      
+      dDate est une date 
+      
+      pour i = 1 a 12
+      	
+      	REQ_CAMois.paramMois = gauche(dDate,6)
+      	HExécuteRequête(REQ_CAMois)
+      	hlitpremier(REQ_CAMois)	
+      	grAjouteDonnée(GRF_EvolutionCA, 1, 12-i, REQ_CAMois.la_somme_TotalTTC)
+      	
+      	//Et l'année précédente
+      	dDate..année--
+      	REQ_CAMois.paramMois = Gauche(dDate,6)
+      	HExécuteRequête(REQ_CAMois)
+      	HLitPremier(REQ_CAMois)	
+      	grAjouteDonnée(GRF_EvolutionCA, 2, 12-i, REQ_CAMois.la_somme_TotalTTC)
+      		
+      	grEtiquetteCatégorie(GRF_EvolutionCA, 12-i, DateVersChaîne(dDate,"Mmm"))
+      	
+      	dDate..Année++
+      	dDate..mois --
+      	
+      fin
+      
+      grdessine(GRF_EvolutionCA)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0ba0333dff4
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

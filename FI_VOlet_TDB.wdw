@@ -1,0 +1,100 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Volet_TDB
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Volet_TDB
+ identifier : 0x26659c9a03afbd8d
+ internal_properties : CAAAAAgAAAAKlBm/8337e8Nam0v7N/ydTnWbBOkVFzRqIQUnJE9t7VPgxer8ZcbzrlAczCr23RrpqbCodUMzJLClCHZZhP7TqBNcAJT61lEAF7BZssViHf/Co9DKHpxjwUKK7RGuScjpSYU5ZLfl68Brs7W4W8BdkO9DJ3NlU20USQiswFE2rrI+gOdsRtPviCervyUV2liHk4qor/l9DSV+CoKjVBcKt12NtUqEO2lbRGllZNxybd/XvmfITKSIH8Co9cVbDl94kY6/1O4Zz1mDFglbtAMKXkd0+y7u4CcNpaGwVPO0MHyewFZFMWDBak6yP6ClB80Fva/M5xk9dRyPZ61MASNQo0Epr0IpVfJHHsJW75M/qZvtNQGwrqx0Uhxk3GtiRNKpDo/vl+AnvV3LBkSXud1mgMGm4b2aiuh++LWfTHSDrBrsgLdvYRuUJ7VOT7agu0uPPFIL7K+SG+jam/INJuf8ssnAJ9kfQ7C1Y47Pn+ISU6tS39m2hoA3cWCoYFuOLLnHQDiA5Ctp/OkD5Cr03pGSoNHSKNChVp3yw1KixIefDVE77ZszhicM2ansMvKrTeBmuFZ5b5u8S9xOjNsOIC/QKmRJfb47bKH0yJcpOufR0uobtKADnsqJlPzCm6cP7gVBdAtPewSHvuHZ0Q1CBRRn+DD6r2vrA3Qbz581SxYfdkD0NWDTmAzNCKrLjD/alosbc7qhqSaR4CLZJuhvSAP/9WY3CyxS31IL+eFdiQ==
+ properties :
+  width : 1433
+  height : 819
+ controls :
+  -
+    name : FI_Volet_TDB
+    identifier : 0x26659c9a03b0bd8d
+    internal_properties : CAAAAAgAAADgjs4qtwGDTMe9HWyIfHKVwrBvbiKhjqK6gV7aDsDlPKVoP1Huyc/YgjW+6kbOkt8/XSk70YN8r2C+e7mIghKJjZDT/cDD9kFUVu2t9nwSScbo1rIT8exV1h58LbYcDMHo2334XtgzvrNvHI1UfAfH1xloGSOoTwZkdwT86mNXpz7ALlhUwQFmsm21YczzhzJXAOYe52hEZel0NHc2wS0bQlgHwd78pkz9Z2/U90iCYKJgaEHN44BATr98tBCJCp/sU3K5nSLDedAGVmOA1Hh9pX9JTTtMN6xwOOyoAqeZo/48oWpX/2lhOlsOCApd4gix4Jr3CPDc8Rg9xju2LV4nFvmM3tMG2dOb7tNeU5GpZv7byYgRPQblkwB1hvdCRrSmHcWXB/SvGZrkZv3oBy/fbur9FLREzem+VceVJpaY8lDj5Tlp1UwxKtkU6B9nw/3Q/ODxg8SD4qhRMyIAfvVxUvjLehHxBviEkHLeRhEEGotP1ZI=
+    properties :
+     width : 1433
+     height : 819
+    controls :
+     -
+       name : TDB_Accueil
+       identifier : 0x26659ceb03c7fa53
+       internal_properties : CAAAAAgAAAB3+Xsl2B9QF+wB16IgFCWMIhVVMk0Gg+1qlBelx90YvL7l0sc1456f7v4+FWmx1KLjCsiKWyYneWzZFfp8Tgg/NSJjfGPI2CEvZTCUjHXIvf+c1rmQedM3A4G4SOWFD7JALw4u1CnpygB3YtZfZbcIfVa3ddwaeH0Upfg1tPCQyZU5SXSLb3lZzBT8Ls8LjSwETA+iNEtXGQwv7Ay+dFXSGbYjXjzrFwR5hqRQOydlbmsgPjQtYvuCZPNt6ldJAIwXgJZnNB6klpyYBuSkgK6CH0eENtpxoR1cKmdfxx99/avAbti7Re1agBKZd8ku3o7mjdf/TDTq3qJmQK+6x/lsnBsp+I0WyPIFC5A0djAhzUa4Arx3+GS75P3yOLmQG/cyGTgXIA6qO+njMr0RdYSbIPT9OoYjNRppzS0HHd8uBR1XfmvkKCGu8M9Jo+sbIWlhqiLDHfoLamRpEDKboyLW4BN9iT3uwKvwzc6IZu6+jAFeSQkWeFjZZ7D9Tp7dOIenXzr0/pfRt9BGBXkbpHbwFj9cWrQJFNcULhW55/P4MJJGh8v1tx358T+kiseKnRa7pMVuzsOzeOWUMlas8yLO5Mf8iZViozsa4hDeUG/DZ7hfPXyErSO+ceY1UUFPPkujNvEoGVjXGzYYOfaFM7IT+DBPEEsxGq//YfHJeTCAPBO0AN2Sva9p8Wt7EtXZ5nlUviXNTb/WlR3iCt9kZmK+FALR5lWFI8Crhyo1Q5rPRwRib3aR2k/6CtcVxzZmuiL2oql4kYMxoaZYU7Y1sst838GIc++Oi0rj7mZIUjuaLNBNY5wIaVE1A1QicWav/vnxcR/sSgkv184R2hxpb2niw7pPn153ROAreHajzybKOm8hujelLdI7peuHC3E2HQgbuh1EaOcoef2svv+NxME1ov4klEmMd71X+JiA3CL33a1QjutV4Of5KEGyQEsBg7RWA+ercBW2jNkFwvxD5NBpKb32dbyHnWqgcDjOXWhFMfMM3RTKCIzHZmO2CGw=
+       properties :
+        x : 5
+        y : 7
+        width : 1422
+        height : 805
+       widgets :
+        -
+          internal_properties : CAAAAAgAAAAMlz/ACuhpBQ3BsD7FJaLmt6jDYJilsnbvzpqi5HQvkq+kAeS/SmxZfxegxRtnwBapfTvo4bGpYzO2ZanN4bjOjLBgthg6DstovTEOmJKixVhr21Hwb2YbxdIXPbGgSx3EnLfIizgX5KDM3DG3TJp8FaKEV94tA7qVwmNpTpG1+mDi6iZll0YdnYZd+rJeUzy6du4BPCI/jbbrp2n5NNgnYx2C0clf89BhZb7prhbbGzWlS8raURsCOP0F
+        -
+          internal_properties : CAAAAAgAAAAgMyQoVsVIhQ2bhAZOSer1kYI30O2FUHNl+tsTEdYbgUhvEvY7MKFh9hmo3n+fBQT3wgg4nt2zlZFPRD0TC9Bi3tXIXh8LZBbR31+03eIyEHy0VBgcXcEeADElqsTJXD5Y4G9sSgMENxQJFFzoBjKrxeoHgftV7b1mCR2/h1QuclJ0T7hvxOvrKMVCa0jyfmEzfCYAePopbE72q8hNsqp2prE9qMWTp8fwfw+rfuSUCK6WsQ7NAr9aBHGKRVdkfT0a5n+jdw==
+        -
+          internal_properties : CAAAAAgAAAAcTOTO6919MrWTGHvSdBMHQXq9BnCX0FS0oP1qjSYWnkDv/FWwqDcGX6RTYQ/tPg8UUdbsFpe+ywOCIW339wHnoTLqhAKibY9PIvIxKYSQmuSNel+b4qI0w1/OqAvdW4opcnd7ExGn7SFSQUlXQpYgyEy6K8PRSGgIh5dnN9YLt5x/tOIe8G1eNf0MNbJBi2Kx/EO2skvRE4O16sMS2I2L7yLFJuV0EGYSHXbtKl/al0Gl/ZTMW33K8newyw==
+        -
+          internal_properties : CAAAAAgAAACmdzf23ywAFa4nUAxpRSVEd35hweDmmTci9BiBFn2BPNNuCU8ReETEfCHqTza7KOI1iWkH+ehCcd40hvldTbTlpzBG81Fhw6XEHiT7+TSpSiexKq6qBGCFvfcDGrW8xJSgpxljB/xYRPEH50lthD0hjcH0GrLR7socCy6tf3A4hNh3anXbW21rDn1ExnBAhAOy37KYGqAwV7uC2v2vgPt08/7cUKPfGpiu5SG/s/JDGdd8fXYh3mwmAEo9dPXS
+        -
+          internal_properties : CAAAAAgAAAAirf3pvP1wOymjUJ/R7xxmX/I1Kn4DFsWcX+MaEUAeoUcgZTuITGTDwJTjzNFift/VqccLS8tZJzgyJCtWxEeSzSKT8vCGzjFcO6/ge9tQbQ6RACNr7FysWLwQZ1b9Yz5FCv+y5kYBwVMLzVRMLfHdDTSOuJBNVN2tM1xHbW8s3rAY6p5Z3cZyjsN8GSNlZu92vkSW7DwegyFfV9eaEN80ZvopfNxVUcxi0o4i4n9dVcFf810Fd2ILE1cwwa9wUb4xMQ==
+        -
+          internal_properties : CAAAAAgAAABaLrFYWRPn9zXiXKiMRr4/8OjZngQFQsdd7KrRfpQkcJ6066UQR4lPFTUfGOHt5cMpHdeAUaujuGJ4dM3A86EYPk7fMr4OGZ17H25+VURP5YOsF7it1E4Bi38Je5CjOVFbomYSQUJdbR+Ru21o1uzaPOQFBUTu0iJ/OSZaNDuMVdsoogTMq+BN6FBweWNfXE5ekZ/yocXoq4/ijqban1s3FVX+T9DrrxjPhu2UhqSy5hTBB4I1bEy5lnjsEnaCUTkiMc0=
+       type : 111
+       controls : []
+       code_elements :
+        type_code : 134
+        p_codes :
+         -
+           code : |1+
+            PROCEDURE AjoutWidget(Widget est un Champ)
+           type : 194
+         -
+           code : |1+
+            PROCEDURE SuppressionWidget(Widget est un Champ)
+           type : 195
+         -
+           code : |1+
+            PROCEDURE DéplacementWidget(Widget est un Champ)
+           type : 196
+         -
+           code : |1+
+            PROCEDURE RedimensionnementWidget(Widget est un Champ)
+           type : 197
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+ menu :
+  name : _Menu
+  identifier : 0x26659c9403aca7c3
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAKd3OKRXU0SJk2r4cjIvi27LVTs7XWqu8U1DeK96EInp1uEeybuWDe+ZRF+wBOiI07LSDvpw3GhtEBOHXCK9OnQ53LhaE=
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0ba0328dfb6
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

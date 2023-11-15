@@ -1,0 +1,160 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Outils
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x169f57e50a4d75b0
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      
+      
+     type : 720896
+  procedures :
+   -
+     name : AfficheErreur
+     procedure_id : 1630118231363450288
+     type_code : 15
+     code : |1+
+      // Résumé : Affiche un message d'erreur à l'utilisateur
+      // Syntaxe :
+      //AfficheErreur (<Champ> est champ, <sMessageErreur> est chaîne)
+      //
+      // Paramètres :
+      //	Champ (champ) :Message d'erreur à afficher
+      //	sMessageErreur (chaîne ANSI) :<indiquez ici le rôle de sMessageErreur>
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE AfficheErreur(LOCAL Champ est un champ, sMessageErreur est une chaine)
+      
+      //Affectation du message d'erreur au champ
+      Champ = sMessageErreur
+      
+      //Affichage du champ
+      Champ..Visible = Vrai
+      AnimationJoueSurPropriétéChamp(Champ,"Opacité", 0, 80, 20)
+      
+      //On attend un peu, et puis on cache le champ
+      Temporisation(200,tempoSourisEtClavier)
+      AnimationJoueSurPropriétéChamp(Champ,"Opacité", 80, 0, 20)
+      Champ..Visible = Faux
+     type : 458752
+   -
+     name : CouleurLisible
+     procedure_id : 1630929829922887493
+     type_code : 15
+     code : |1+
+      
+      PROCEDURE CouleurLisible(LOCAL nCouleurOrigine est un entier) : entier
+      
+      CouleurOrigine est une Couleur
+      CouleurRetour est une Couleur
+      
+      
+      // Mémorise la couleur d'origine
+      CouleurOrigine = nCouleurOrigine
+      
+      // Appelle la syntaxe avec les variables de types couleur
+      CouleurRetour = CouleurLisible(CouleurOrigine)
+      
+      
+      // Renvoie la couleur inverse trouvée
+      RENVOYER CouleurRetour..Couleur
+      
+      
+      
+     type : 458752
+   -
+     name : CouleurLisible
+     procedure_id : 1630929829922887493
+     type_code : 15
+     code : |1+
+      PROCEDURE CouleurLisible(LOCAL CouleurOrigine est une Couleur) : Couleur
+      
+      nLuminosité est un entier
+      rLuminance est un réel
+      CouleurRetour est une couleur
+      
+      
+      // Calcul de la luminance de la couleur passée en paramètre
+      rLuminance = 1 - (0.299 * CouleurOrigine..Rouge + 0.587 * CouleurOrigine..Vert + 0.114 * CouleurOrigine..Bleu)/255
+      
+      // En fonction de la luminance, la couleur d'écriture doit avoir une faible ou une forte luminosité
+      SI rLuminance < 0.5 ALORS
+      	// Faible luminosité
+      	nLuminosité = 12
+      SINON
+      	// Forte luminosité
+      	nLuminosité = 88
+      FIN
+      
+      // La couleur renvoyée conserve la tonalité et la saturation
+      CouleurRetour = TSL(CouleurTeinte(CouleurOrigine), CouleurSaturation(CouleurOrigine), nLuminosité)
+      
+      
+      // Renvoie la couleur inverse trouvée
+      RENVOYER CouleurRetour
+     type : 458753
+   -
+     name : GénérationDonnées
+     procedure_id : 2139950155123269287
+     type_code : 15
+     code : |1+
+      // Résumé : Génère des données "à jour" pour l'exemple
+      // Syntaxe :
+      // GénérationDonnées ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE GénérationDonnées()
+      
+      bNePlusAfficher est un booléen
+      
+      // Si l'utilisateur ne souhaite plus voir la demande de génération
+      si ChargeParamètre("NEPLUSAFFICHER", 0) = 1 ALORS
+      	// Ne rien faire
+      	RETOUR
+      FIN
+      
+      // Demande confirmation à l'utilisateur
+      saisie.LibelléOptionnel = "Ne plus afficher"
+      bGénérer est un booleen = ( saisie("Souhaitez-vous générer des commandes à jour ?", bNePlusAfficher, ["Générer", "Annuler"], 1, 2) = 1 )
+      // Si l'utilisateur ne souhaite plus voir ce message, il faut mémoriser le paramètre
+      si bNePlusAfficher ALORS
+      	sauveParamètre("NEPLUSAFFICHER", 1)
+      FIN
+      
+      // Si l'utilisateur ne souhaite pas générer de données de test
+      si bGénérer = faux ALORS
+      	// Ne rien faire
+      	retour
+      FIN
+      
+      // Ouvre la fenêtre de génération
+      Ouvre(FEN_Generation)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0b902f2dd74
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

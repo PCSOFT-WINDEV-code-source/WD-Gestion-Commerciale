@@ -1,0 +1,185 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GestionClient
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x166562b4015d9158
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      STClient est une Structure
+      	UUIDClient est un UUID
+      	eMail est une chaîne
+      	Civilité est un entier
+      	Nom est une chaîne
+      	Prénom est une chaîne
+      	TelFixe est une chaîne
+      	TelPortable est une chaîne
+      	DateCréation est une Date
+      FIN
+      
+      STFiltresRechercheClients est une Structure
+      	sNom est une chaîne
+      	sPrénom est une chaîne
+      	sCP est une chaîne
+      	sVille est une chaîne
+      	sTél est une chaîne
+      	sEmail est une chaîne
+      FIN
+     type : 720896
+  procedures :
+   -
+     name : CivilitéVersChaine
+     procedure_id : 1613804575328737732
+     type_code : 15
+     code : |1-
+      // Résumé : Civilité en lettre
+      // Syntaxe :
+      //[ <Résultat> = ] CivilitéVersChaine (<nCivilité> [, <bAbrégée>])
+      //
+      // Paramètres :
+      //	nCivilité :Civilité mémorisée dans la base de données
+      //	bAbrégée (valeur par défaut=1) : Civilité en toutes lettres ou abrégées ?
+      // Valeur de retour :
+      // 	chaîne ANSI : Civilité en lettres
+      
+      PROCEDURE CivilitéVersChaine(nCivilité, bAbrégée = Vrai)
+      
+      SI bAbrégée ALORS
+      	SELON nCivilité
+      		CAS 2 // Monsieur
+      			RENVOYER "M."
+      		CAS 3 // Madame
+      			RENVOYER "Mme"
+      		CAS 4 // Mademoiselle
+      			RENVOYER "Mlle"
+      		AUTRE CAS
+      			RENVOYER ""
+      	FIN
+      SINON
+      	SELON nCivilité
+      		CAS 2 // Monsieur
+      			RENVOYER "Monsieur"
+      		CAS 3 // Madame
+      			RENVOYER "Madame"
+      		CAS 4 // Mademoiselle
+      			RENVOYER "Mademoiselle"
+      		AUTRE CAS
+      			RENVOYER ""
+      	FIN
+      	
+      FIN
+     type : 458752
+   -
+     name : RécupèreClient
+     procedure_id : 1627999274734854336
+     type_code : 15
+     code : |1+
+      PROCEDURE RécupèreClient( UUIDClientALire est un uuid)
+      
+      dbgAssertion(UUIDClientALire<>Nil_UUID)
+      
+      stInfoClient est un STClient
+      si HLitRecherchePremier(Client,UUIDClient,UUIDClientALire) ALORS
+      	FichierVersMémoire(stInfoClient,Client)
+      FIN
+      
+      renvoyer stInfoClient
+      
+     type : 458752
+   -
+     name : ClientNomComplet
+     procedure_id : 1627999961931092822
+     type_code : 15
+     code : |1-
+      // Résumé : Renvoie le nom complet d'un client
+      // Syntaxe :
+      //[ <Résultat> = ] ClientNomComplet (<UnUUIDClient> est UUID sur 128 bits)
+      //
+      // Paramètres :
+      //	UnUUIDClient (UUID sur 128 bits) : Id du client
+      // Valeur de retour :
+      // 	chaîne ANSI : Nom complet du client
+      
+      PROCEDURE ClientNomComplet(LOCAL UnUUIDClient est un UUID)
+      
+      
+      sNomComplet est une chaine
+      
+      // Recherche du client
+      HLitRecherchePremier(client, UUIDClient, UnUUIDClient)
+      SI HTrouve(Client) ALORS
+      	
+      	sNomComplet = CivilitéVersChaine(client.Civilité) + [" "] + majuscule(client.nom) + [" "] + Majuscule(Client.prenom)
+      	renvoyer sNomComplet
+      	
+      FIN
+      
+      dbgAssertion(Faux,"Client introuvable")
+      RENVOYER ""
+     type : 458752
+   -
+     name : DonneLocalisationEnClair
+     procedure_id : 1629392231507400772
+     type_code : 15
+     code : |1+
+      // Résumé : Renvoie la localisation globale en fonction du téléphone (se base sur l'indicatif)
+      // Syntaxe :
+      //[ <Résultat> = ] DonneLocalisationEnClair (<sTelephone>)
+      //
+      // Paramètres :
+      //	sTelephone :Téléphone
+      // Valeur de retour :
+      // 	chaîne ANSI : localisation globale
+      //
+      PROCEDURE DonneLocalisationEnClair(sTelephone)
+      
+      SELON Gauche(sTelephone, 2)
+      	CAS "01" : renvoyer "Région parisienne"
+      	CAS "02" : RENVOYER "Région nord ouest"
+      	CAS "03" : RENVOYER "Région nord est"
+      	CAS "04" : RENVOYER "Région sud est"
+      	CAS "05" : RENVOYER "Région sud ouest"
+      	autres cas : renvoyer ""
+      FIN	
+     type : 458752
+   -
+     name : FormateNomComplet
+     procedure_id : 1629748305832654020
+     type_code : 15
+     code : |1-
+      // Résumé : Renvoie le nom complet d'un client 
+      // Syntaxe :
+      //[ <Résultat> = ] FormateNomComplet (<nCivilité> est entier, <sNom> est chaîne, <sPrénom> est chaîne)
+      //
+      // Paramètres :
+      //	nCivilité (entier) :Code civilité
+      //	sNom (chaîne ANSI) :Nom
+      //	sPrénom (chaîne ANSI) :Prénom
+      // Valeur de retour :
+      // 	chaîne ANSI : Le nom complet du client
+      
+      PROCEDURE FormateNomComplet(LOCAL nCivilité est un entier, LOCAL sNom est une chaine, LOCAL sPrénom est une chaine)
+      
+      renvoyer CivilitéVersChaine(nCivilité) + [" "] + Majuscule(sNom) + [" "] + Majuscule(sPrénom)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0b902cfdd45
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

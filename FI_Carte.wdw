@@ -1,0 +1,110 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Carte
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Carte
+ identifier : 0x269e3bc311038c3a
+ internal_properties : CAAAAAgAAAAcryT8c6WyWUJS+T06pmYX2Ml/et9ixqtRlBH6mr9zDZMe7sbi5IATdlYnnn2Smi6AeGbwL59g74qpeQznoMzDcBSSIiqNIogx7gt9RDqEnyHdVMMECEVd/o6FYzg1habBtycrYDFV1XPn7FkMJ52UUDLjDLev3f6AJ4JUBQ1E813WxYfUfdGVP4jUirgvxh0SgX4qK2iGw0o3RQuxMD9RCbkzQ1f/ZZF9prsoqnzClg+gTfeysAQ6k/QFsCxemMgOwGtKLZMxz1vx9Zg1JHtu9jQEMp81b/NOeisKbMjG9yHF62N7dpTyyg8tzffQ515vzSkbbzT8LIE8LMVv540cdap6KhVznn/8k4JGJynW+7kCzBoztzW1s3KeK9MvA55wO5hFbCSH0Spg1g1icH/h6RU8Y2HK852jDI2sC2L3mNdAEQU2PuV1e/nW+4n9Re9A79BAHz4VeG9NY6EwYJRicTfw5Fy2dVCC8gWxKIybZ3JRf9nMzlGTDBrbHLmDTl48YvWLLvP+2o98eXrfYVgtla+KENsuEq45bbKwgqHXXDzwTOcCNXpzBjdUES1zQtgTEUNw+zkvJpcOProGLKiv75xX5TOJ5TBybTdW0WeB0tQg27xbax6Jt4ExqQb6EOIUNIIJ2E0WOTvlT+KODOoQkiccBPeCkVIiPMow/soz9g8GbLazuRflLzTWBYplI83GljmUIurBMmBKaB82690RCS0Jplut++DJ5JCNBu0V60HVCXm8eGf8gFj0WUCVlvf1Cp5nnOjIQ6HyWRZ9D2k=
+ properties :
+  width : 640
+  height : 480
+ controls :
+  -
+    name : FI_Carte
+    identifier : 0x269e3bc311048c3a
+    internal_properties : CAAAAAgAAADjmJagGxikBmESVvUcdLfrUeZSl+X2xV4101d9O7LRryZbTNCODDIH588OlXecpXBVOcay/NgtTqJyCQbKuS63lNejHbMbP0JfuFjMTqZI2kPSEuKddXxJ7McK0XVh9gUy1rDpFOqFvU3vj4IlmV0h9iXfLUEw8CFNj+VeYU78BLx/b5tbCGvw/YV7ECAKyvICeeDlGa9dY8QoYidWwSVZ/WyNftxBjdaIHuF465sGNt1QcCTiOippgue5hHUIeKgFBS+Y8TzqZSHXh6I1Jl1vaHIHxPaozhfboLq6CznraLfg5ZnPM5tCNzOB8ktPEb0lXdV3vh30xnGywlG/ZGr+XH2t8mD6FlYeydpV9phWtX0sezFwcT/WO5phduKmbeRHvtN9nVqUX360184fTnbu8irE2BobziZOXOZX5qKNqkGoM20Ukbf2MwRmHeRSBRPpRn3CL3irshUqwmAKQUEQaPX/g8ay9fC1ikI=
+    properties :
+     width : 640
+     height : 480
+    controls :
+     -
+       name : CARTE_Localisation
+       identifier : 0x269e3bc311058c3a
+       internal_properties : CAAAAAgAAAAUfVvjteUfOROXPGXHajAygINIgK8kNG0yhAQ/tVnvt5XymIlBDgPq5QAZBM4/7raoS8jkY3Pv2iiLqvmQwMAKgiQr8rzK3/HI/OJG1I+k8dvLFQvQbeJcfk+2Q9c9K1F5fb0g4UU82OiMgTAT59Jxcw5wo7zM2uxTsadcK+SF22KmeWErMf4OGHIBOql6Fjt/g3wyhU2HuRGZ/mTDMzZ86lH10tESsgTPhs7/K9caalPTPiJjZw4/viftFf3m8+rN9//41LM2rx7L9bobom1pGQzTbdve5oEQ47ugsx/d8V1ZurY7i5cE1p9cMsIN73RIz3fHK1Oh/37G6fee3WpVkVMOUr9yZoUdXOX+UPMYDvSfkfENO4fJQB/JWNoB+X5P2H6CtvqeAmX4MgNsQ5xA5925pZGuVd609eG/OR8RyX5HZmodDHStLBcT
+       properties :
+        width : 640
+        height : 480
+       type : 92
+       code_elements :
+        type_code : 121
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         
+ menu :
+  name : _Menu
+  identifier : 0x269e3bb010f94473
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : AfficheAdresse
+     procedure_id : 1629807829841456930
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche l'adresse dans la carte
+      // Syntaxe :
+      // AfficheAdresse ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      
+      PROCEDURE AfficheAdresse(sAdresse est une chaîne)
+      
+      //Marqueur de position dans la carte
+      Localisation est un gglCoordonnée
+      Localisation = GglAdresseVersCoordonnées(CST_CLÉGOOGLE, sAdresse)
+      
+      si erreurdetectée = vrai ALOrS
+      	//On tente de localiser juste la commune
+      	Localisation = GglAdresseVersCoordonnées(CST_CLÉGOOGLE, extraitchaine(sAdresse, 3, RC, DepuisFin))
+      	si erreurdetectée = vrai ALOrS
+      		retour
+      	Fin
+      FIN
+      
+      MarqueurLoc est un Marqueur
+      MarqueurLoc.Position..Latitude = Localisation..Latitude
+      MarqueurLoc.Position..Longitude = Localisation..Longitude
+      
+      
+      CARTE_Localisation..ModeCarte = carteModeSatellite
+      CARTE_Localisation..Zoom = 16
+      
+      CarteAffichePosition(CARTE_Localisation,MarqueurLoc.Position)
+      CarteAjouteMarqueur(CARTE_Localisation, MarqueurLoc)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbcc0ba0345e071
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
